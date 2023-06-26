@@ -29,7 +29,7 @@ type HangmanWordProps = {
                     ? "visible"
                     : "hidden",
                 color:
-                  !guessedLetters.includes(letter) && reveal ? "red" : "black",
+                  !guessedLetters.includes(letter) && reveal ? "red" : "green",
               }}
             >
               {letter}
